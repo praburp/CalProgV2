@@ -1,0 +1,4 @@
+C:\Users\pramu\Music\tasktracker\Cal\Cal\bin\Debug\Cal.exe
+C:\Users\pramu\Music\tasktracker\Cal\Cal\bin\Debug\Cal.pdb
+C:\Users\pramu\Music\tasktracker\Cal\Cal\obj\x86\Debug\Cal.exe
+C:\Users\pramu\Music\tasktracker\Cal\Cal\obj\x86\Debug\Cal.pdb
