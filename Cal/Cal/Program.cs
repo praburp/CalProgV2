@@ -18,17 +18,17 @@ namespace ConsoleApplication3
             int[] array1 = new int[2];
             int[] array2 = new int[3];
 
-            //int h;
+            
             int n, p = 0, m = 0;
             int j;
             string z, t;
-            //int Flag = 0;
-
+            
+//getting the input and storing it in a string
             Console.WriteLine("enter the input:");
             string s = Console.ReadLine();
-            //string s = "4^3+sqrt(100)+10+2^2+20-3*9+6/6+sqrt(9)+4^2";
+            
             z = string.Copy(s);
-
+//finding the sqrt function in the string and replace it with its value in the string 
             for (j = 0; j < s.Length; j++)
             {
                 string c = s.Substring(j, 1);
@@ -80,8 +80,7 @@ namespace ConsoleApplication3
             s = string.Copy(z);
             z = string.Copy(s);
 
-            //Console.WriteLine(s);
-            //Console.Read();
+            //finding exponent in the string and replace its value in the string 
 
 
             for (j = 0; j < s.Length; j++)
@@ -184,7 +183,7 @@ namespace ConsoleApplication3
             }
 
             s = string.Copy(z);
-
+// passing the string after replacing the sqrt function and exponent value to the Datatable to calculate the value of the expression.
             try
             {
 
